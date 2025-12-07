@@ -1,6 +1,9 @@
  :root {
+    --container-padding : 18px;
+    --container-width : 1530px;
     --border: #E7E7E7;
     --contrast: #7F8E76;
+    --contrast-border:#9BA992;
     --contrast-light: #F5FAF2;
     --price: #00A3A4;
     --text-dark: #1F1F1F;

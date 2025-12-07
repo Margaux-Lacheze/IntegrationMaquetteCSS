@@ -19,6 +19,17 @@
     font-weight: bold;
 }
 
+.banner_title {
+   font-size: 2.125rem;
+   line-height: 1.4;
+   font-weight: 800;
+}
+
+.banner_description {
+   line-height: 1.625;
+   font-weight: 600;
+}
+
 @media (min-width:1100px) {
      .section-title {
         font-size: 2.625rem;
@@ -33,5 +44,13 @@
      }
      .product-card_image {
         height: 286px;
+     }
+     .banner_title {
+      font-size: 3.75rem;
+      line-height: 1.33;
+     }
+     .banner_description {
+      font-size: 1.25rem;
+      line-height: 1.6;
      }
 }

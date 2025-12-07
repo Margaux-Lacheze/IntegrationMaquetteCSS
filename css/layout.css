@@ -1,6 +1,11 @@
 .container {
-    --container-padding : 18px;
-    max-width: 1566px;
+    box-sizing: content-box; /* Ne pas calculer les paddings à l'intérieur*/
+    max-width: var(--container-width);
     margin-inline: auto;
     padding-inline: var(--container-padding);
+}
+
+/* Tous les enfants direct s'ils ont un élément adjacent (pas le premier du coup) */
+.sections > * + * {
+    margin-top: 50px;
 }
